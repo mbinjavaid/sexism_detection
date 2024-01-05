@@ -1,4 +1,4 @@
-# sexism_detection
+# Automatic Sexism Detection
 
 For a detailed overview of the project and the meanings of the terms referred to below, please refer to the provided presentation document, i.e. ```sexism_detection.pdf```.
 
