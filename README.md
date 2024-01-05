@@ -1,6 +1,6 @@
 # sexism_detection
 
-For a detailed overview of the project and the meanings of the terms referred to below, please refer to the presentation document sexism_detection.pdf.
+For a detailed overview of the project and the meanings of the terms referred to below, please refer to the provided presentation document, i.e. ```sexism_detection.pdf```.
 
 The original dataset csv files are included in the folder 'Call me sexist but', and the csv files containing the GPT-generated items are contained in the folder 'gpt'. The requisite data pre-processing and cleaning is done automatically on the fly when running task1.py or task3.py.
 
