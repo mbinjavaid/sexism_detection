@@ -6,7 +6,7 @@ The original dataset csv files are included in the folder ```Call me sexist but`
 
 - ```task1.py``` produces the binary (sexist / not sexist) and fine-grained (type of sexism) classification results while using only scale items from the original 'Call me sexist but' dataset. Also prints a list of different interesting tweets (e.g. some of the tweets with the top and lowest sexist/non-sexist scores, tweets falling near the classification threshold, etc.). For the default values of ```k``` and ```ε```, these tweets have been saved in ```task1_tweets_of_interest.txt```.
 
-- ```task2.ipynb``` is the code used for generating and saving as csv files the GPT items. We generate both sexist and non-sexist (neutral) sentences/tweet-like items using GPT.
+- ```task2.ipynb``` is the code used for generating and saving as csv files the GPT-generated items. We generate both sexist and non-sexist (neutral) sentences/tweet-like items using GPT.
 
 - ```task3.py``` produces the tweets' binary classification results when using all available scale items - the original scales from 'Call me sexist but' dataset, as well as all the GPT-generated items. The choice to use all of these as scale items was made after our evaluations showed that this resulted in arguably the best classification performance overall. Similar to ```task1.py```, running ```task3.py``` also produces a list of various tweets of interest. For the default values of ```k``` and ```ε```, these tweets have been saved in ```task3_tweets_of_interest.txt```.
 
