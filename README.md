@@ -1,5 +1,7 @@
 # sexism_detection
 
+For a detailed overview of the project and the meanings of the terms referred to below, please refer to the presentation document sexism_detection.pdf.
+
 The original dataset csv files are included in the folder 'Call me sexist but', and the csv files containing the GPT-generated items are contained in the folder 'gpt'. The requisite data pre-processing and cleaning is done automatically on the fly when running task1.py or task3.py.
 
 - task1.py produces the binary (sexist / not sexist) and fine-grained (type of sexism) classification results while using only scale items from the original 'Call me sexist but' dataset. Also prints a list of different interesting tweets (e.g. some of the tweets with the top and lowest sexist/non-sexist scores, tweets falling near the classification threshold, etc.). For the default values of k and ε, these tweets have been saved in 'task1_tweets_of_interest.txt'.
